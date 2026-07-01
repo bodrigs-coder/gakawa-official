@@ -304,3 +304,7 @@ ul { padding-left: 1.35em; }
   color: var(--red-dark);
   font-size: 25px;
 }
+
+.step-list{counter-reset:step;list-style:none;padding-left:0}
+.step-list li{counter-increment:step;margin:12px 0;padding:14px 16px 14px 52px;background:rgba(255,253,247,.75);border:1px solid var(--line);border-radius:14px;position:relative}
+.step-list li::before{content:counter(step);position:absolute;left:16px;top:14px;width:24px;height:24px;border-radius:999px;background:var(--red);color:#fff;display:inline-flex;align-items:center;justify-content:center;font-size:13px;font-weight:700}

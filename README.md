@@ -35,3 +35,9 @@ This version uses cross-platform wording for Android and iOS:
 - Apple In-App Purchase
 
 The heading is platform-neutral: “購買、付款與錢包 / Purchases, Payments, and Wallet”.
+
+- `delete-account.html` — 刪除帳號 / Delete Account
+
+## Google Play Account Deletion URL
+
+`https://bodrigs-coder.github.io/gakawa-official/zh-TW/delete-account.html`
